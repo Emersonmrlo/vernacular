@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="prt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>vernacular</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="/index.html"> &nbsp &nbsp HOME</a></li>
+        <li><a href="/HISTÓRIA.html">HISTÓRIA</a></li>
+        <li><a href="/exemplos.html">EXEMPLOS</a></li>
+        <li><a href="/influe.html"> INFLUÊNCIA</a></li>
+        <li><a href="/tendencia.html">TENDÊNDIA</a></li>
+      </ul>
+    </nav>
+    <h1 class="generaltitle">Formulário</h1>
+    <form method="post" action="/cadastro.php">
+      <div>
+        <input
+          type="text"
+          name="nome"
+          id="snome"
+          required
+          placeholder="Seu nome"
+        />
+        <label for="snome">Nome</label>
+      </div>
+      <div>
+        <input
+          type="text"
+          name="sonren"
+          id="ssobren"
+          placeholder="Digite seu sobrenome"
+        />
+        <label for="ssobren">Sobrenome</label>
+      </div>
+      <div>
+        <input
+          type="number"
+          name="sida"
+          id="sida"
+          placeholder="Sua idade"
+          maxlength="20"
+          min="1"
+          max="20"
+        />
+        <label for="sida">Idade</label>
+      </div>
+      <div>
+        <input
+          type="email"
+          name="smail"
+          id="smail"
+          placeholder="Digite seu email"
+          required
+        />
+        <label for="smail">Email</label>
+      </div>
+      <div>
+        <input
+          type="tel"
+          name="telefo"
+          id="telef"
+          required
+          placeholder="telefone"
+        />
+        <label for="telef">Telefone</label>
+      </div>
+      <fieldset>
+        <legend style="margin-left: 30px; font-size: 20px">Genero</legend>
+
+        <div>
+          <input type="radio" name="sex" id="masculino" /><label for="sex"
+            >genero</label
+          ><br />
+          <input type="radio" name="sex" id="feminino" />
+          <label for="sex">feminino</label><br />
+          <input type="radio" name="sex" id="outro" />
+          <label for="outro">outro</label>
+        </div>
+      </fieldset>
+      <div>
+        <input type="color" name="colo" id="colo" required />
+        <label for="colo">Cor favorita</label>
+      </div>
+      <div>
+        <p style="font-size: 20px">Estado</p>
+        <label for="ist">Estado</label>
+        <select name="estado" id="ist">
+          <optgroup label="Sudeste">
+            <option value="sp">São Paulo</option>
+            <option value="mg">Minas gerais</option>
+            <option value="rj">Rio de janeiro</option>
+            <option value="es">Espírito Santo</option>
+          </optgroup>
+          <optgroup label="região nordeste ">
+            <option value="ma">maranhão</option>
+            <option value="pi">Piauí</option>
+            <option value="ba">bahia</option>
+            <option value="se">Sergipe</option>
+            <option value="al">Alagoas</option>
+            <option value="pb">paraíba</option>
+            <option value="pe">pernambuco</option>
+            <option value="pi">Piaui</option>
+            <option value="ce">ceará</option>
+          </optgroup>
+          <optgroup label="Centro Oeste">
+            <option value="mt">Mato grosso</option>
+            <option value="ms">mato Grosso do sul</option>
+            <option value="go">Goiânia</option>
+            <option value="df">Distrito federal</option>
+          </optgroup>
+          <optgroup label="Norte">
+            <option value="am">Amazonas</option>
+            <option value="pa">Pará</option>
+            <option value="ac">Acre</option>
+            <option value="rr">Roraima</option>
+            <option value="ap">Amapá</option>
+            <option value="to">Tocantins</option>
+          </optgroup>
+          <optgroup label="Região sul">
+            <option value="pr">Praná</option>
+            <option value="rs">Rio Grande do Sul</option>
+            <option value="st">Santa catarina</option>
+          </optgroup>
+        </select>
+      </div>
+      <input type="textarea" name="Textoa" id="texta" cols="10" rows="10">
+      <label for="texta">Sobre você aqui!</label>
+      <div class="formre">
+        <input class="subm" type="submit" value="Enviar" />
+        <input class="rese" type="reset" value="apagar" />
+      </div>
+    </form>
+    
+ <footer>Totos os direitos reservados a Emersonmrlo</footer>
+  </body>
+</html>

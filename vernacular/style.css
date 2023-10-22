@@ -1,0 +1,212 @@
+@charset "utf-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #3c5665;
+  min-height: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.titule{
+  display: flex;
+  align-items: center;
+  background-color: rgb(248, 77, 9);
+}
+#icon{
+  width: 70px;
+  margin: 24px;
+  margin-left: 45px;
+
+  
+  
+}
+.generaltitle {
+  color: #92a4b1;
+  text-align: center;
+  margin-top: 25px;
+  font-size: 50px;
+  
+ 
+}
+
+nav {
+  display: flex;
+
+  justify-content: center;
+ margin-top: -45px;
+  font-family: "Tilt Warp", cursive;
+  
+  height: 100%;
+}
+nav ul li {
+  display: inline-block;
+  background-color: #1e2025;
+  border-radius: 50%;
+
+  width: 100px;
+  height: 100px;
+  
+ 
+}
+
+nav ,ul, li, a {
+  color: #3c5665;
+  font-family: "Tilt Warp";
+  padding-top: 35px;
+  padding-left: 7px;
+  font-size: 15px;
+  text-decoration: none;
+ 
+ 
+  
+  
+ 
+}
+.total {
+  margin: 20px;
+  padding: 10px;
+}
+.conteiner {
+  display: flex;
+  justify-content: center;
+}
+.card {
+  width: 200px;
+  height: 400px;
+  background-color: #92a4b1;
+  border-radius: 15px;
+  box-shadow: 2px 5px 5px 5px #1e2025;
+}
+
+.image {
+  width: 200px;
+  height: 100px;
+  align-items: center;
+}
+.textocard {
+  font-size: 15px; 
+  padding: 15px;
+  text-align: justify;
+  color: #3c5665;
+}
+.button {
+  width: 130px;
+  height: 50px;
+  background-color: #3c5665;
+  display: flex;
+
+  margin-left: 18%;
+  text-align: center;
+  font-size: 30px;
+  border-radius: 15px;
+  padding: 5px;
+  box-shadow: 3px 2px 2px #1e2025;
+}
+.button a {
+  font-size: 25px;
+  padding: 3px;
+  text-shadow: 5px 15px 15px white;
+
+  text-decoration: none;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: #92a4b1;
+}
+.gercont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gercont .conteiner {
+  margin: 20px;
+  padding: 10px;
+}
+.artp1{
+  color: #1e2025;
+  text-shadow:01px 01px 01px  rgba(255, 255, 255, 0.452);
+  font-size: 25px;
+ align-items: center;
+ 
+width: 90%;
+margin-left: 10px;
+
+}
+.artp1 h1{
+  
+  color: #1589cc;
+  text-align: center;
+  
+
+}
+.artp1 p{
+ text-align: center;
+ margin: 15px;
+}
+footer{
+  text-align: center;
+  margin-top: 10px;
+}
+/*page formularilo*/
+.formu{
+  text-align: center;
+  font-size: 60px;
+  margin-top: 20px;
+  color: #1e2025;
+}
+.parahis{
+  text-align: justify;
+  margin: 10px;
+  color: #1e2025;}
+ 
+.iparahis{
+  background-color: rgb(248, 77, 9);
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 2px 3px 3px 2px;
+  font-family: 'Tilt Warp', cursive;
+}
+form{
+  background-color: #6a87972c;
+ width: 60%;
+ font-size: 15px;
+  margin-left: 20px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px #131c20 ;
+  padding: 10px;
+}
+ form ,div {
+  margin-top: 4px;
+ }
+.formre{
+  margin: 20px;
+  margin-left: 6rem;
+  border-radius: 3px;
+  color: #1589cc;
+  wi
+}
+.formre , input{
+  color: rgb(119, 134, 132);
+  
+}
+.subm ,.rese{
+  background-color: #080a0c;
+  border-radius: 10px;
+  padding: 3px;
+}
+footer{
+  margin-top: 30px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
